@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hybridisation Recombination and Introgression Detection and Dating</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site for the HybRIDS R package for analysing recombination signal in DNA sequences">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css" type="text/css"/>
+    <style>
+    </style>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type='text/javascript'>
+        var jumboHeight = $('.jumbotron').outerHeight();
+        function parallax(){
+            var scrolled = $(window).scrollTop();
+            $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+        }
+        $(window).scroll(function(e){
+            parallax();
+        });
+    </script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="bg"></div>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="./img/HybRIDSlogo.png" class="img-rounded">
+            </div>
+            <div class="col-lg-8">
+                <div class="page-header">
+                    <h2> Hybridisation Recombination and Introgression Detection and Dating </h2>
+                    <p> <h2> <small> Easy detection, dating, and visualisation for recombination, introgression and hybridisation events in genomes. </small> </h2> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of JumboTron -->
+
+    <div class="container">
+
+        PAGE CONTENT HERE
+
+    <!-- Close the container that is opened up in header.html -->
+    </div>
+    </body>
+</html>
